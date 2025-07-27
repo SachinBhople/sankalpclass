@@ -53,7 +53,7 @@ const Home = () => {
   const renderTestimonial = (testimonial: Testimonial) => (
     <div className="bg-white p-8 rounded-lg shadow-lg mx-4">
       <div className="flex items-center mb-4">
-        <Image
+        <img
           src={testimonial.image}
           alt={testimonial.name}
           className="w-16 h-16 rounded-full object-cover mr-4"

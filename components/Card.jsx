@@ -7,9 +7,10 @@ const Card = ({ title, description, image, action, children, className = '' }) =
     <div className={`bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 ${className}`}>
       {image && (
         <div className="h-48 overflow-hidden">
-          <Image
+          <img
             src={image}
             alt={title || 'Card Image'}
+
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
           />
         </div>
