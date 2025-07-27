@@ -19,7 +19,7 @@ const About = () => {
         {
             icon: <Users className="h-8 w-8 text-blue-600" />,
             title: 'Student-Centric',
-            description: 'Every decision we make is centered around our students\' success and well-being.'
+            description: 'Every decision we make is centered around our students success and well-being.'
         },
         {
             icon: <BookOpen className="h-8 w-8 text-blue-600" />,
@@ -159,11 +159,13 @@ const About = () => {
                         <div className="text-lg text-gray-700 leading-relaxed space-y-6">
                             <p>
                                 Sankalp Classes was founded in 2009 with a simple yet powerful vision: to provide
-                                quality education that transforms students' lives. What started as a small coaching
+                                quality education that transforms students&rsquo; lives. What started as a small coaching
                                 center with just 20 students has grown into one of the most respected educational
                                 institutions in the region.
                             </p>
+
                             <p>
+
                                 Over the years, we have continuously evolved our teaching methods, embraced technology,
                                 and expanded our course offerings to meet the changing needs of students. Our commitment
                                 to excellence has remained unwavering, and we take pride in the thousands of students

@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import Link from 'next/link'
-import Image from 'next/image'
+
 
 import { Award, Users, BookOpen, Target } from 'lucide-react';
 import Carousel from '../components/Carousel';

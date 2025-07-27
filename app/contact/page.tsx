@@ -134,8 +134,9 @@ const Contact = () => {
                     <div className="space-y-8">
                         <h2 className="text-3xl font-bold text-gray-900 mb-6">Get in Touch</h2>
                         <p className="text-gray-600 text-lg mb-8">
-                            We'd love to hear from you! Whether you have questions about our courses, need guidance on admissions, or want to discuss your educational goals, our team is here to help.
+                            We&rsquo;d love to hear from you! Whether you have questions about our courses, need guidance on admissions, or want to discuss your educational goals, our team is here to help.
                         </p>
+
                         {contactInfo.map((info, index) => (
                             <div key={index} className="flex items-start space-x-4">
                                 <div className="text-blue-600 mt-1">{info.icon}</div>

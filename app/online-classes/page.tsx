@@ -1,5 +1,5 @@
 import React from 'react';
-import { Monitor, Clock, Users, BookOpen, CheckCircle, Video, Headphones, Download } from 'lucide-react';
+import { Monitor, CheckCircle, Video, Headphones, Download } from 'lucide-react';
 
 const OnlineClasses = () => {
     const features = [
