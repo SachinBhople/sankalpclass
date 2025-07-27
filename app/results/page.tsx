@@ -1,5 +1,5 @@
 import React from 'react';
-import { Trophy, Award, Star, TrendingUp } from 'lucide-react';
+import { Star } from 'lucide-react';
 import Card from '../../components/Card';
 import AnimatedCounter from '../../components/AnimatedCounter';
 import { results } from '../data/dummyData';

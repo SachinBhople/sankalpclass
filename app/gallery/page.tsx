@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Eye, Download, X } from 'lucide-react';
 import { classImages } from '../data/dummyData';
+import Image from 'next/image'
 
 const Gallery = () => {
     const [selectedImage, setSelectedImage] = useState(null);
@@ -58,7 +59,7 @@ const Gallery = () => {
                                 className="relative group cursor-pointer overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-white"
                                 onClick={() => openModal(image)}
                             >
-                                <img
+                                <Image
                                     src={image}
                                     alt={`Gallery image ${index + 1}`}
                                     className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
@@ -134,7 +135,7 @@ const Gallery = () => {
                         >
                             <X className="h-8 w-8" />
                         </button>
-                        <img
+                        <Image
                             src={selectedImage}
                             alt="Selected gallery image"
                             className="max-w-full max-h-full object-contain rounded-lg"

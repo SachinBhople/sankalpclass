@@ -1,12 +1,13 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import Image from 'next/image'
 
 const Card = ({ title, description, image, action, children, className = '' }) => {
   return (
     <div className={`bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 ${className}`}>
       {image && (
         <div className="h-48 overflow-hidden">
-          <img
+          <Image
             src={image}
             alt={title || 'Card Image'}
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"

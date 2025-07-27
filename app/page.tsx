@@ -1,8 +1,9 @@
 "use client";
 import React from 'react';
 import Link from 'next/link'
+import Image from 'next/image'
 
-import { Award, Users, BookOpen, Target, CheckCircle } from 'lucide-react';
+import { Award, Users, BookOpen, Target } from 'lucide-react';
 import Carousel from '../components/Carousel';
 import Card from '../components/Card';
 import AnimatedCounter from '../components/AnimatedCounter';
@@ -52,7 +53,7 @@ const Home = () => {
   const renderTestimonial = (testimonial: Testimonial) => (
     <div className="bg-white p-8 rounded-lg shadow-lg mx-4">
       <div className="flex items-center mb-4">
-        <img
+        <Image
           src={testimonial.image}
           alt={testimonial.name}
           className="w-16 h-16 rounded-full object-cover mr-4"

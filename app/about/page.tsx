@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, Users, BookOpen, Target, CheckCircle, Star } from 'lucide-react';
+import { Users, BookOpen, Target, CheckCircle, Star } from 'lucide-react';
 import AnimatedCounter from '../../components/AnimatedCounter';
 
 const About = () => {
